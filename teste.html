@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
+">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="modal fade" id="janelaModal">
+        <div class="modal-dialog modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Título da janela</h4>
+                <button type="button" class="close" datadismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                Conteúdo da janela.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" datadismiss="modal">
+                Close
+                </button>
+                </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary" data-toggle="modal"
+data-target="#janelaModal">
+Abrir Janela
+</button>
+
+</body>
+
+</html>

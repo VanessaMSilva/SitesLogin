@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style0.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
+    ">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Museu memorial dos povos indigena - Contatos</title>
+    <meta name="description" content="Imagens de rochas e suas descrições">
+    <link rel="icon" href="imagens/favicon_io/favicon.ico">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="inicio">
+        <div class="Container Flex">
+            <div id="logo"><a href="index.html">Museu - Contatos</a></div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label id="label" for="check">&#x268c;</label>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="atividades.html">Atividades</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                    <li><a href="localizacao.html">Localização</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="corpo">
+        <div class="container1">
+            <div class="content">
+                <div class="left-side">
+                    <div class="address details">
+                        <div class="fas"><img src="imagens/Contatos/4781819_direction_gps_location_map_maps_icon.png"
+                                alt=""></div>
+                        <div class="topic">Endereço</div>
+                        <div class="text-one">Zona Cívico-Administrativa Em frente ao Memorial JK, 70070-300</div>
+                        <div class="text-two">Brasília - DF</div>
+                    </div>
+                    <div class="address details">
+                        <div class="fas"><img src="imagens/Contatos/1181190_email_gmail_google_mail_icon.png" alt="">
+                        </div>
+                        <div class="topic">Email</div>
+                        <div class="text-one">memorialIndigena@gmail.com</div>
+                        <div class="text-two">povosIndigenas123@gmail.com</div>
+                    </div>
+                    <div class="address details">
+                        <div class="fas"><img
+                                src="imagens/Contatos/2849835_phone_telephone_cell_call_communication_icon.png" alt="">
+                        </div>
+                        <div class="topic">Telefone</div>
+                        <div class="text-one">061 3344 1155</div>
+                        <div class="text-two">068 5236 9785</div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-text">Envie uma dúvida reclamação comentario</div>
+                    <p>Se você tiver qualquer tipo de comentario envie uma mensagem. É um prazer ajuda-lo</p>
+                    <form action="index.html">
+                        <div class="input-box">
+                            <input id="name" class="input required" type="text" placeholder="Digite seu nome">
+
+                        </div>
+                        <div class="input-box"> <input id="email" class="input required" type="email"
+                                placeholder="Digite seu email"></div>
+
+                        <div class="input-box">
+                            <fieldset id="sexo">
+                                <legend>Sexo</legend>
+                                <div>
+                                    <input type="radio" name="sexo" id="feminino" value="feminino"> <label
+                                        for="feminino">Feminino</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="sexo" id="masculino" value="masculino"> <label
+                                        for="masculino">Masculino</label>
+                                </div>
+                                <div>
+                                    <span></span>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <br>
+                        <div class="input-box">
+                            <textarea id="textArea" class="required" placeholder="Digite sua mensagem"></textarea>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="checkbox" id="Termos" name="Termo" value="Termos" checked>
+                            <label for="Termos">Quero receber e-mails</label>
+                        </div>
+                        <div class="button">
+                            <button class="input"  data-toggle="modal"                     type="button" id="verificar" data-target="#escreve">Verificar</button>
+                        </div> 
+                </div>
+
+                </form>
+                <div class="modal fate f1" id="escreve">
+                    <fieldset>
+                    <div class="modal-dialog modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">Dados de confirmação</h1>
+                        </div>
+                        <div class="modal-body  input-box">
+
+                            <div id="dados"></div>
+                        </div>
+
+                        <div class="modal-footer">
+
+                            <div class="button f1 f2">
+                                <input class="input" id="envio" type="submit" value="Enviar">
+                            </div>
+                            <div class="button f1">
+                                <input class="input" id="limpar" type="reset" value="Limpar">
+                            </div>
+                            <div class="button f1">
+                                <input class="input" id="alterar" type="button" value="Alterar">
+                            </div>
+                            <button type="button" class="close" datadismiss="modal">&times;</button>
+                        </div>
+                    </fieldset>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!--Rodape-->
+    <footer>
+        <div class="wrapper-footer">
+            <div class="boxs">
+                <h2>Museu</h2>
+            </div>
+            <div class="boxs">
+                <h3>Inicio</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="atividades.html">Atividades</a></li>
+                    <li><a href="localizacao.html">Localização</a></li>
+                    <li><a href="contatos">Contatos</a></li>
+                </ul>
+            </div>
+            <div class="boxs">
+                <h3>Fale conosco</h3>
+                <ul>
+                    <li><a href="#">Zona Cívico-Administrativa Em frente ao Memorial JK, Brasília - DF, 70070-300</a>
+                    </li>
+                    <li><a href="http://www.cultura.df.gov.br/memorial-dos-povos-indigenas/">Blog</a></li>
+                    <li><a href="#">Telefone: 06133441155</a></li>
+                </ul>
+            </div>
+            <div class="boxs">
+                <h3>Funcionamento</h3>
+                <ul>
+                    <li><a href="#">Abre as 9:00</a></li>
+                    <li><a href="#">Fecha às 17:00</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <a href="#inicio" id="topo"><img src="imagens/seta(1).png" alt=""></a>
+    <script src="./script/js.js"></script>
+</body>
+
+</html>
